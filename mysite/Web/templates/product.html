@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Bán Laptop</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .navbar {
+      background-color: #343a40 !important;
+    }
+    .navbar-nav .nav-link {
+      color: #fff !important;
+    }
+    .banner {
+      background: url("https://images.unsplash.com/photo-1517336714731-489689fd1ca8") center/cover no-repeat;
+      height: 350px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 5px black;
+    }
+    .product-card {
+      transition: 0.3s;
+    }
+    .product-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    footer {
+      background: #343a40;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <!-- Dropdown chọn hãng -->
+      <div class="dropdown mr-3">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="brandMenu" data-toggle="dropdown">
+          Chọn hãng
+        </button>
+        <div class="dropdown-menu" aria-labelledby="brandMenu">
+          <a class="dropdown-item" href="#">Acer</a>
+          <a class="dropdown-item" href="#">MSI</a>
+          <a class="dropdown-item" href="#">Dell</a>
+          <a class="dropdown-item" href="#">HP</a>
+          <a class="dropdown-item" href="#">Asus</a>
+        </div>
+      </div>
+
+      <!-- Nút menu khi thu nhỏ -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Menu + tìm kiếm -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Sản phẩm</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Đăng nhập</a></li>
+        </ul>
+
+        <!-- Thanh tìm kiếm -->
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Tìm laptop..." aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+  <div class="banner">
+    <h1>Chào mừng đến với Laptop Store</h1>
+  </div>
+
+  <!-- Product Section -->
+  <div class="container my-5">
+    <h2 class="text-center mb-4">Sản phẩm nổi bật</h2>
+    <div class="row">
+      <!-- Laptop 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" class="card-img-top" alt="Laptop 1">
+          <div class="card-body">
+            <h5 class="card-title">Laptop Gaming XYZ</h5>
+            <p class="card-text">CPU i7, RAM 16GB, SSD 512GB, Card RTX 3060.</p>
+            <p class="text-danger font-weight-bold">25.000.000₫</p>
+            <a href="#" class="btn btn-primary btn-block">Mua ngay</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Laptop 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top" alt="Laptop 2">
+          <div class="card-body">
+            <h5 class="card-title">Laptop Ultrabook ABC</h5>
+            <p class="card-text">CPU i5, RAM 8GB, SSD 256GB, mỏng nhẹ 1.2kg.</p>
+            <p class="text-danger font-weight-bold">18.500.000₫</p>
+            <a href="#" class="btn btn-primary btn-block">Mua ngay</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Laptop 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card product-card">
+          <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231" class="card-img-top" alt="Laptop 3">
+          <div class="card-body">
+            <h5 class="card-title">Laptop Văn phòng DEF</h5>
+            <p class="card-text">CPU i3, RAM 4GB, SSD 128GB, phù hợp học tập.</p>
+            <p class="text-danger font-weight-bold">10.000.000₫</p>
+            <a href="#" class="btn btn-primary btn-block">Mua ngay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>Laptop Store © 2025</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
