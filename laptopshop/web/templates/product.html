@@ -1,30 +1,13 @@
+{% extends "master.html" %}
 {% load static %}
 <!DOCTYPE html>
 <html lang="vi">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Laptop Store</title>
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+{% block title %}
+  Laptop Store
+{% endblock %}
 
-  <style>
-    .product-card { transition: 0.3s; cursor: pointer; }
-    .product-card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    }
-    footer {
-      background: #343a40;
-      color: white;
-      padding: 20px 0;
-      text-align: center;
-    }
-  </style>
-</head>
-<body>
+{% block content %}
 
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -70,51 +53,20 @@
   <div class="container my-5">
     <h2 class="text-center mb-4">Danh sách sản phẩm</h2>
     <div class="row" id="productList">
-      
-      <!-- Laptop Acer -->
-      <div class="col-md-4 mb-4 product" data-brand="Acer" onclick="viewProduct('Laptop Gaming Acer Nitro 5')">
-        <div class="card product-card">
-          <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Laptop Gaming Acer Nitro 5</h5>
-            <p class="text-danger font-weight-bold">22.000.000₫</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Laptop MSI -->
-      <div class="col-md-4 mb-4 product" data-brand="MSI" onclick="viewProduct('Laptop MSI Stealth 15')">
-        <div class="card product-card">
-          <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Laptop MSI Stealth 15</h5>
-            <p class="text-danger font-weight-bold">35.000.000₫</p>
-          </div>
-        </div>
-      </div>
 
       {% for x in mylaptops %}
-        <div class="col-md-4 mb-4 product" data-brand="MSI" onclick="viewProduct('Laptop MSI Stealth 15')">
-          <div class="card product-card">
-            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">{{ x.name }}</h5>
-              <p class="text-danger font-weight-bold">{{ x.price_view }}₫</p>
+        <div class="col-md-4 mb-4 product" data-brand="{{ x.brand }}">
+          <a href="{% url 'product_detail' x.id %}" class="text-decoration-none text-dark">
+            <div class="card product-card">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">{{ x.name }}</h5>
+                <p class="text-danger font-weight-bold">{{ x.price_view }}₫</p>
+              </div>
             </div>
-          </div>
+          </a>
         </div>
       {% endfor %}
-
-      <!-- Laptop Dell -->
-      <div class="col-md-4 mb-4 product" data-brand="Dell" onclick="viewProduct('Laptop Dell XPS 13')">
-        <div class="card product-card">
-          <img src="{% static 'images/dell-latitude.jpg' %}" class="card-img-top" alt="Dell Latitude">
-          <div class="card-body">
-            <h5 class="card-title">Laptop Dell XPS 13</h5>
-            <p class="text-danger font-weight-bold">30.000.000₫</p>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>
@@ -156,5 +108,5 @@
       alert("Bạn đã chọn: " + name + "\n(Ở website thật sẽ mở trang chi tiết sản phẩm)");
     }
   </script>
-</body>
+{% endblock %}  
 </html>

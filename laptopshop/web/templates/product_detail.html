@@ -1,0 +1,121 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ laptop.name }}</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      background-color: #f9f9f9;
+    }
+    .product-container {
+      margin: 50px auto;
+      max-width: 1100px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+    .product-image img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product-info h2 {
+      font-weight: bold;
+      color: #333;
+    }
+    .price {
+      font-size: 1.5rem;
+      color: #e63946;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    .buy-btn {
+      background-color: #007bff;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 8px;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .buy-btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+ <!-- chi tiết sản phẩm -->
+
+  <div class="container product-container">
+    <div class="row">
+      <div class="col-md-5 product-image">
+        <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8" alt="{{ laptop.name }}">
+      </div>
+
+      <div class="col-md-7 product-info">
+        <h2>{{ laptop.name }}</h2>
+        <p><i class="fa-solid fa-laptop"></i> Thương hiệu: <strong>{{ laptop.brand }}</strong></p>
+        <p class="price">{{ laptop.price_view }}₫</p>
+        <p>a</p>
+
+        <button class="buy-btn"><i class="fa-solid fa-cart-shopping"></i> Mua ngay</button>
+        <button class="btn btn-outline-secondary ml-2"><i class="fa-regular fa-heart"></i> Yêu thích</button>
+      </div>
+    </div>
+  </div>
+
+  <!--  -->
+
+  <!-- đánh giá sản phẩm -->
+  <div class="container product-container">
+    <h4>Đánh giá sản phẩm</h4>
+  </div>
+  <!--  -->
+
+  <!-- sản phẩm tương tự -->
+  <div class="container product-container">
+    <h4>Sản phẩm tương tự</h4>
+    <div class="row" id="productList">
+
+      <div class="col-md-4 mb-4 product" data-brand="{{ x.brand }}">
+          <a href="/product/1/" class="text-decoration-none text-dark">
+            <div class="card product-card">
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top">
+              <div class="card-body">
+                <h5 class="card-title">{{ laptop.name }}</h5>
+                <p class="text-danger font-weight-bold">{{ laptop.price_view }}₫</p>
+              </div>
+            </div>
+          </a>
+      </div>
+
+      <div class="col-md-4 mb-4 product" data-brand="{{ x.brand }}">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">{{ laptop.name }}</h5>
+              <p class="text-danger font-weight-bold">{{ laptop.price_view }}₫</p>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 mb-4 product" data-brand="{{ x.brand }}">
+          <div class="card product-card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">{{ laptop.name }}</h5>
+              <p class="text-danger font-weight-bold">{{ laptop.price_view }}₫</p>
+            </div>
+          </div>
+      </div>
+
+    </div>
+  </div>
+  <!--  -->
+</body>
+</html>

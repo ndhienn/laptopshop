@@ -1,0 +1,91 @@
+﻿,no_of_cores,no_of_threads,spec_score,imageurl,model_name,brand,processor_name,ram(GB),ssd(GB),graphics,screen_size(inches),resolution (pixels),price
+1,2,4,62,,Lenovo V15 ITL G2 82KBA033IH Laptop,Lenovo,11th Gen Core i3,8,512,Intel Integrated UHD,15.6,1920 x 1080,9630000
+2,6,12,66,,HP Pavilion 15-ec2004AX Gaming Laptop,HP,AMD Ryzen 5 5600H,8,512,NVIDIA GeForce GTX 1650,15.6,1920 x 1080,15940000
+3,6,12,66,,Asus Vivobook 16X 2022 M1603QA-MB502WS Laptop,Asus,Ryzen 5-5600H,8,512,AMD Radeon Vega 7,16,1200 x 1920,13910000
+4,4,8,63,,HP 15s-fr4000TU Laptop,HP,11th Gen Core i5,8,512,Intel Integrated Iris Xe,15.6,1920 x 1080,15040000
+5,4,8,73,,Lenovo IdeaPad Gaming 3 82K101ECIN Laptop,Lenovo,11th Gen Core i5,8,256,NVIDIA GeForce GTX 1650,15.6,1920 x 1080,16100000
+6,2,2,57,,HP 15s-eq1559AU Laptop,HP,AMD Athlon Silver 3050U,8,512,AMD Radeon Graphics,15.6,1366 x 768,8290000
+7,6,8,61,,Dell Inspiron 3520 Laptop,Dell,12th Gen Core i3,8,512,Intel UHD Graphics,15.6,1920 x 1080,12520000
+8,6,8,60,,HP 15s-fq5007TU Laptop,HP,12th Gen Core i3,8,512,Intel UHD Graphics,15.6,1920 x 1080,13280000
+9,10,12,61,,HP 15s-fq5111TU Laptop,HP,12th Gen Core i5,8,512,Intel Iris Xe,15.6,1920 x 1080,16620000
+10,6,12,69,,Asus TUF Gaming A15 FA506IHRZ-HN111W Laptop,Asus,AMD Ryzen 5 4600H,8,512,NVIDIA GeForce GTX 1650,15.6,1920 x 1080,14190000
+11,2,4,57,,HP 15s-er1501AU Laptop,HP,AMD Ryzen 3 3250U,8,256,AMD Radeon,15.6,1920 x 1080,8090000
+12,6,12,72,,HP Victus 15-fb0040AX Gaming Laptop,HP,AMD Ryzen 5 5600H,8,512,NVIDIA GeForce GTX 1650,15.6,1920 x 1080,16980000
+13,2,4,51,,Asus VivoBook 14 X415JA-BV301WS Laptop,Asus,10th Gen Core i3,8,0,Intel UHD Graphics,14,1920 x 1080,8480000
+14,2,4,56,,HP 15s-fq2717TU Laptop,HP,11th Gen Core i3,8,512,Intel Integrated UHD,15.6,1920 x 1080,11890000
+15,2,4,41,,Lenovo E41-55 82FJ00AGIH Laptop,Lenovo,Athlon Gold 3150U,4,256,AMD Radeon RADEON,14,1920 x 1080,5390000
+16,2,4,60,,HP 15s-FR2511TU Laptop,HP,11th Gen Core i3,8,512,Intel UHD Graphics,15.6,1920 x 1080,11600000
+17,4,8,59,,HP 15s- eq2212AU Laptop,HP,AMD Ryzen 3 5300U,8,512,AMD Radeon Graphics,15.6,1920 x 1080,10780000
+18,2,4,59,,HP 245 G8 62G68PA Laptop,HP,AMD Ryzen 3  3250U,8,0,AMD Radeon Graphics,14,1920 x 1080,7920000
+19,2,4,50,,Acer One 14 Z2-493 Laptop,Acer,AMD Ryzen 3 3250U,4,256,AMD Radeon Radeon Graphics,14,1366 x 768,5960000
+20,12,16,74,,Acer Aspire 7 A715-51G NH.QGCSI.001 Gaming Laptop,Acer,12th Gen Core i5,8,512,NVIDIA GeForce RTX 3050,15.6,1920 x 1080,18450000
+21,6,12,68,,MSI Bravo 15 B5DD-410IN Gaming Laptop,MSI,Ryzen 5 5600H,8,512,AMD Radeon RX 5500M,15.6,1920 x 1080,13620000
+22,10,12,57,,HP 14s-dy5005TU Laptop,HP,12th Gen Core i5,16,512,Intel Integrated Intel Iris Xe Graphics,14,1920 x 1080,18170000
+23,8,16,73,,MSI Thin GF63 11SC-852IN Gaming Laptop,MSI,11th Gen Core i7,8,512,NVIDIA GeForce GTX 1650 MAX Q,15.6,1920 x 1080,18170000
+24,10,12,80,,Asus Zenbook 17 Fold UX9702AA-MD023WS Laptop,Asus,12th Gen Core i7,16,1000,Intel Iris Xe Graphics,17.3,2560 x 1920,93710000
+25,4,8,56,,Dell Latitude 3420 Laptop,Dell,11th Gen Core i5,8,512,Intel UHD Graphics,14,1366 x 768,20940000
+26,2,4,57,,HP 14s-dq2649TU Laptop,HP,11th Gen Core i3,8,512,Intel Integrated UHD,14,1920 x 1080,12920000
+27,2,4,56,,Dell Vostro 3510 Laptop,Dell,11th Gen Core i3,8,256,Intel UHD Graphics,15.6,1920 x 1080,10780000
+28,6,12,65,,HP 14s-fq1092au Laptop,HP,Ryzen 5 5500U,8,512,AMD Radeon AMD,14,1920 x 1080,13080000
+29,4,8,61,,HP 247 G8 600A9PA Laptop,HP,AMD Ryzen 3 5300U,8,512,AMD Radeon Graphics,14,1366 x 768,9370000
+30,14,20,69,,Acer Swift 3 OLED SF314-71 NX.KAVSI.001 Laptop,Acer,12th Gen Core i7,16,1000,Intel Integrated Iris Xe,14,2880 x 1800,32940000
+31,8,16,81,,HP Omen 16-n0079AX Gaming Laptop,HP,AMD Ryzen 7 6800H,16,512,AMD Radeon RX 6650M,16.1,1920 x 1080,30750000
+32,4,4,51,,HP 14s-dr3001TU Laptop,HP,Pentium Silver N6000,8,256,Intel UHD Graphics,14,1366 x 768,8800000
+33,2,2,0,,Asus Chromebook Flip C214MA-BU0704 Laptop,Asus,Celeron N4020,4,0,Intel Integrated UHD 600,11.6,1366 x 768,4540000
+34,14,20,76,,Acer Predator Helios 300 PH315-55 Gaming Laptop,Acer,12th Gen Core i9,16,1000,NVIDIA GeForce RTX 3060,15.6,2560 x 1440,45150000
+35,2,4,50,,Acer Extensa 15 EX215-54 Laptop,Acer,11th Gen Core i3,8,512,Intel Integrated UHD,15.6,1920 x 1080,9650000
+36,14,20,88,,Asus ProArt StudioBook Pro 16 OLED H7600ZM-L701WS Laptop,Asus,12th Gen Core i7,16,1000,NVIDIA GeForce RTX 3060,16,3840 x 2400,56370000
+37,2,4,55,,HP 14s-dy2507TU Laptop,HP,11th Gen Core i3,8,256,Intel Integrated UHD Graphics,14,1920 x 1080,10070000
+38,8,16,75,,Asus ROG Strix G17 2022 G713IE-HX040W Gaming Laptop,Asus,AMD Ryzen 7 4800H,16,1000,NVIDIA GeForce RTX 3050 Ti,17.3,1920 x 1080,24980000
+39,6,12,73,,Acer Nitro 5 AN515-56 Gaming Laptop,Acer,11th Gen Core i5,16,512,NVIDIA GeForce GTX 1650,15.6,1920 x 1080,17880000
+40,14,20,84,,MSI Gaming Crosshair 15 B12UEZ-677IN Laptop,MSI,12th Gen Core i7,16,1000,NVIDIA GeForce RTX 3060,15.6,2560 x 1440,31520000
+41,6,12,69,,Dell G15-5511 Gaming Laptop,Dell,11th Gen Core i5,16,512,NVIDIA GeForce RTX 3050,15.6,1920 x 1080,19340000
+42,14,20,75,,Dell G15-5520 Laptop,Dell,12th Gen Core i7,16,512,NVIDIA GeForce RTX 3050 Ti,15.6,1920 x 1080,30780000
+43,6,12,59,,Lenovo Ideapad 15ALC6 82KU017KIN Laptop,Lenovo,Ryzen 5 5500U,8,512,AMD Radeon,15.6,1920 x 1080,13570000
+44,2,4,62,,HP 15s-GR0012AU Laptop,HP,AMD Ryzen 3 3250U,8,256,AMD Radeon Vega 6,15.6,1920 x 1080,12770000
+45,4,8,57,,HP EliteBook 840 G6,HP,8LX79PA) Laptop ,8,512,Integrated UHD Graphics 620,14,1920 x 1080,25690000
+46,12,16,78,,Lenovo Yoga 9i 83B1002GIN Laptop,Lenovo,13th Gen Core i7,16,1000,Intel Iris Xe Integrated Graphics,14,3840 x 2400,49690000
+47,14,20,84,,Dell Alienware M15 R7 Gaming Laptop,Dell,12th Gen Core i7,16,512,NVIDIA GeForce RTX 3060,15.6,1920 x 1080,47990000
+48,14,20,71,,Dell G15-5521 D560897WIN9S Gaming Laptop,Dell,12th Gen Core i9,16,1000,NVIDIA GEFORCE RTX 3070 Ti,15.6,2560 x 1440,39470000
+49,14,20,86,,Lenovo Legion 5 82RB00K8IN Laptop,Lenovo,12th Gen Core i7,16,1000,NVIDIA GeForce RTX 3060,15.6,2560 x 1600,40320000
+50,10,12,61,,MSI Modern 15 B12M-202IN Laptop,MSI,12th Gen Core i5,8,512,Intel Integrated Iris Xe,15.6,1920 x 1080,15750000
+51,8,12,76,,MSI Katana GF66 12UD-640IN Gaming Laptop,MSI,12th Gen Core i5,16,512,NVIDIA GeForce RTX 3050 Ti,15.6,1920 x 1080,22140000
+52,14,20,75,,MSI Pulse GL66 12UEK-898IN Gaming Laptop,MSI,12th Gen Core i9,16,1000,NVIDIA GeForce RTX 3060,15.6,2560 x 1440,38340000
+53,14,20,85,,MSI Vector GP66 12UEO-646IN Gaming Laptop,MSI,12th Gen Core i7,16,1000,NVIDIA GeForce RTX 3060,15.6,1920 x 1080,38050000
+54,14,20,81,,Asus ZenBook Pro Duo 14 OLED 2022 UX8402ZE-M711WS Laptop,Asus,12th Gen Core i7,16,1000,NVIDIA GeForce RTX 3050 Ti,14.5,2880 x 1800,45430000
+55,12,16,71,,Dell XPS 13 Plus 9320 Laptop,Dell,12th Gen Core i7,16,1000,Intel Iris Xe Graphics,13.4,3840 x 2400,50690000
+56,8,16,82,,Asus Strix G15 G513RM-HQ271WS Gaming Laptop,Asus,Ryzen 7 6800H,16,1000,NVIDIA GeForce RTX 3060,15.6,2560 x 1440,35490000
+57,2,2,43,,Lenovo V15-IGL 82C3A008IH Laptop,Lenovo,Celeron N4020,4,256,Intel Integrated UHD,15.6,1920 x 1080,5670000
+58,8,16,79,,Lenovo Thinkpad P15v 21AAS05L00 Laptop,Lenovo,11th Gen Core i7,16,1000,Nvidia Quadro T600,15.6,1920 x 1080,45430000
+59,4,8,56,,Lenovo V14 Gen 2 â€Ž82C40019IX Laptop,Lenovo,11th Gen Core i5,8,512,Intel Iris Xe Graphics,14,1920 x 1080,14190000
+60,14,20,96,,MSI Stealth GS66 12UGS-290IN Gaming Laptop,MSI,12th Gen Core i7,32,1000,NVIDIA GeForce RTX 3070Ti,15.6,2560 x 1440,82070000
+61,12,16,71,,Lenovo ThinkPad X13 21BNS03K00 Laptop,Lenovo,12th Gen Core i7,16,512,Intel Iris Xe Graphics,13.3,1920 x 1200,56800000
+62,6,12,71,,Acer Nitro 5 AN515-45 UN.QBMSI.009 Gaming Laptop,Acer,AMD Ryzen 5 5600H,16,512,NVIDIA GeForce GTX 1650,15.6,1920 x 1080,18170000
+63,2,2,44,,Asus Eeebook 14 E410KA-BV092W Laptop,Asus,Celeron N4500,4,256,Intel UHD Graphics,14,1920 x 1080,6950000
+64,8,0,0,,Acer Chromebook Enterprise Spin 513 R841LT-S6DJ Laptop,Acer,Snapdragon 7c,4,0,Qualcomm Adreno 618,13.3,1920 x 1080,13620000
+65,10,12,57,,Lenovo â€ŽThinkPad E14 Gen 4 Laptop,Lenovo,12th Gen Core i5,8,512,Intel Iris Xe,14,1920 x 1080,21150000
+66,2,2,45,,Asus E410 Eeebook E410KA-BV003W Laptop,Asus,Celeron N4500,4,256,Intel UHD Graphics,14,1920 x 1080,6930000
+67,4,8,61,,Lenovo Thinkbook 14 20VD011EIH Laptop,Lenovo,11th Gen Core i7,16,512,Intel Iris Xe Graphics,14,1920 x 1080,29420000
+68,8,16,76,,Dell G15-5525 Gaming Laptop,Dell,Ryzen 9-6900HX,16,1000,GeForce RTX 3060,15.6,1920 x 1080,41770000
+69,2,2,45,,Asus E410KA-BV002W Laptop,Asus,Celeron N4500,4,256,Intel UHD Graphics,14,1920 x 1080,6950000
+70,14,20,94,,MSI Creator Pro Z17 A12UMST-237IN Gaming Laptop,MSI,12th Gen Core i7,32,1000,NVIDIA GeForce RTX A5500,16,2560 x 1600,126370000
+71,4,8,55,,Lenovo ThinkBook 14 20VDA0QTIH Laptop,Lenovo,11th Gen Core i5,8,512,Intel UHD Graphics,14,1920 x 1080,17060000
+72,4,4,49,,Acer TravelMate TMB311-31 Laptop,Acer,Intel Pentium N5030,4,128,UHD Graphics 600,11.6,1366 x 768,7090000
+73,6,12,69,,MSI GF63 Thin 10SC-848IN Gaming Laptop,MSI,10th Gen Core i5,8,512,NVIDIA GeForce GTX 1650,15.6,1920 x 1080,17230000
+74,4,8,47,,Lenovo V14-IIL 82C4019YIH Laptop,Lenovo,10th Gen Core i5,4,256,Intel Integrated UHD,14,1366 x 768,13630000
+75,2,2,49,,Lenovo V14-IGL â€Ž82C2S02K00 Laptop,Lenovo,Celeron N4020,4,256,Intel Integrated UHD,14,1920 x 1080,6240000
+76,6,12,71,,Lenovo 15ACH6 82JW00P5IN Laptop,Lenovo,Ryzen 5 5600H,16,512,NVIDIA GeForce GTX 1650,15.6,1920 x 1200,19870000
+77,14,20,81,,MSI Crosshair 15 B12UGZ-1012IN Gaming Laptop,MSI,12th Gen Core i7,16,1000,NVIDIA GeForce RTX 3070,15.6,2560 x 1440,38330000
+78,10,12,59,,Acer Spin 3 SP314-55N Laptop,Acer,12th Gen Core i5,16,512,Intel Irix Xe Graphics,14,1920 x 1080,24130000
+79,16,24,86,,MSI Raider GE77HX 12UHS-205IN Gaming Laptop,MSI,12th Gen Core i9,32,2000,NVIDIA GeForce RTX 3080 Ti,17.3,3840 x 2160,85190000
+80,8,16,75,,MSI Alpha 15 B5EEK-235IN Laptop,MSI,Ryzen 7 5800H ,8,512,AMD Radeon RX 6600M,15.6,1920 x 1080,22710000
+81,8,16,79,,MSI Delta 15 A5EFK-201IN Gaming Laptop,MSI,AMD Ryzen 7 5800H,16,1000,AMD Radeon RX 6700M,15.6,1920 x 1080,28680000
+82,4,4,48,,Asus EeeBook E410KA-BV101WS Laptop,Asus,Pentium N6000,8,256,Intel Integrated UHD,14.1,1366 x 768,8230000
+83,6,12,66,,MSI GF75 Thin 10SC-611IN Laptop,MSI,10th Gen Core i5,8,256,Nvidia GTX1650 MaxQ,15.6,1920 x 1080,16720000
+84,8,16,79,,MSI GP66 Leopard 11UG-693IN Gaming Laptop,MSI,11th Gen Core i7,16,1000,NVIDIA GeForce RTX 3070,15.6,2560 x 1440,36910000
+85,12,16,69,,MSI Sword 15 A12UD-471IN  Gaming Laptop,MSI,12th Gen Core i5,16,512,NVIDIA GeForce RTX 3050 Ti,15.6,1920 x 1080,24420000
+86,8,16,81,,MSI GS76 Stealth 11UE-631IN 9S7-17M111-631 Gaming Laptop,MSI,11th Gen Core i7,16,1000,Nvidia GeForce RTX 3060,15.6,1920 x 1080,46000000
+87,4,8,61,,Asus X515EA-BQ522WS Laptop,Asus,11th Gen Core i5,8,512,Intel Integrated Iris Xe,15.6,1920 x 1080,15190000
+88,4,8,63,,Asus K413EA-EB522WS Laptop,Asus,11th Gen Core i5,16,512,Intel Integrated Iris Xe,14,1920 x 1080,16180000
+89,2,0,44,,Asus BR1100CKA-GJ0722W Notebook,Asus,Celeron N4500,4,128,Intel Integrated UHD Graphics,11.6,1366 x 768,6520000
+90,2,0,49,,Asus BR1100FKA-BP1104W Laptop,Asus,Celeron N4500,4,128,Intel Integrated UHD Graphics,11.6,1366 x 768,8510000
